@@ -65,3 +65,21 @@ const line = document.getElementById('line').value;
                 alert('Thank you we,ve receive your Account Details and we will get back to you as soon as possible!!');
              }
 }
+
+function get() {
+const download = document.getElementById('download').value;
+ 
+  
+   
+    const message = ` I Want To Download TIY app`;
+    
+    
+                
+      var phoneNumber = '+2348120419277';
+      
+      var url = 'sms:' + phoneNumber + '?body=' + message;
+      window.location.href = url;
+                alert('Thank you we,ve receive your message and we will get back to you as soon as possible!!');
+             }
+
+
