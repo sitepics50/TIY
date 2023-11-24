@@ -18,7 +18,7 @@
       const message = `I would like to purchase ${quantity} ${cardType} each which is  ${totalPrice} total price for the TIY card(s) I want to purchase.`;
 
       // Replace the phone number with your own number or a destination number
-      var phoneNumber = '+2348120419277'; 
+      var phoneNumber = '+2348142397504'; 
       
       var url = 'sms:' + phoneNumber + '?body=' + message;
       window.location.href = url;
@@ -75,7 +75,7 @@ const download = document.getElementById('download').value;
     
     
                 
-      var phoneNumber = '+2348120419277';
+      var phoneNumber = '+2348142397504';
       
       var url = 'sms:' + phoneNumber + '?body=' + message;
       window.location.href = url;
